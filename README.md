@@ -31,8 +31,8 @@ Trong scheduler.py, chúng ta đã cài đặt lịch để mã chạy mỗi ng�
 ```bash
   schedule.every().day.at("06:00").do(job)
 ```
-Sửa lại địa chỉ chứa phiên bản chorme cũ để show ra lúc truy cập trang web
-Ví dụ :
+Cấu hình WebDriver
+Để Selenium có thể truy cập trang web, bạn cần chỉ định đường dẫn đến ChromeDriver. Trong scheduler.py, hãy thay đổi đường dẫn đến ChromeDriver của bạn, ví dụ:
 ```bash
   "E:\LeTanThong_BaiTaplon-084e7e95c48b188822eea5946e829e89822fd6ca\chromedriver-win64\chromedriver.exe"
 ```
